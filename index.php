@@ -26,7 +26,7 @@ if (isset($submit)) { ?>
  <?php
   if ($stariauta >= 2010) { ?>
       <p> Moderní auto </p>
-    } 
+    <?php } else { ?>
       
   
   
@@ -34,9 +34,7 @@ if (isset($submit)) { ?>
 
  
 
-  <?php
-} else {
-  ?> 
+  
   <form action="index.php" method="post">
  
  Rok výroby: <input type="number" id="stari" name="stariauta" min="1900" max="2020">
