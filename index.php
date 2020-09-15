@@ -25,7 +25,7 @@ if (isset($submit)) { ?>
   <?php
 } else {
   ?> 
-  <form action="wp2-1.php" method="post">
+  <form action="index.php" method="post">
  
  Rok výroby: <input type="number" id="stari" name="stariauta" min="1900" max="2020">
 
