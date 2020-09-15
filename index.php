@@ -22,6 +22,18 @@ if (isset($submit)) { ?>
   <p>Auto: <?= $auto ?></p>
   <p>SPZ: <?= $spz ?></p>
   <p>Stáří auta: <?= $stariauta ?>
+
+ <?php
+  if ($stariauta >= 2010) { ?>
+      <p> Moderní auto </p>
+    } 
+      
+  
+  
+
+
+ 
+
   <?php
 } else {
   ?> 
