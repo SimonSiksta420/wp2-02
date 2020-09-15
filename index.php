@@ -44,7 +44,6 @@ if (isset($submit)) { ?>
    <option value="<?= $type ?>"><?= $type ?> </option>
  <?php } ?>
 
- ?>
 </select>
 <br>SPZ <input type="text" name="spz" > 
 <br> <input type="submit" name="submit" value="Odeslat">
