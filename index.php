@@ -26,7 +26,7 @@ if (isset($submit)) { ?>
  <?php
   if ($stariauta >= 2010) { ?>
       <p> Moderní auto </p>
-    <?php } else { ?>
+    <?php } ?> 
       
   
   
