@@ -24,7 +24,23 @@ if (isset($submit)) { ?>
   <p> SPZ: <?= $spz ?> </p>
   <p> Stáří auta: <?= $stariauta ?> </p>
 
-<?php } else {  ?>
+ <?php
+  if ($stariauta > 2009) { ?>
+    Moderní
+  <?php
+  } elseif ($stariauta > 1989) { ?>
+    Ojeté
+  <?php
+  } else { ?>
+    Veterán
+  <?php
+  }
+
+
+
+
+
+} else {  ?>
 
 <form action="index.php" method="post">
 
