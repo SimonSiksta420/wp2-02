@@ -5,6 +5,11 @@
  $stariauta = filter_input(INPUT_POST, 'stariauta');
  $types = array('Auto', 'Autobus','Dodávka','Nákladní automobil');
  ?>
+ 
+ <?php
+ error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
