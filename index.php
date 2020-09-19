@@ -29,7 +29,7 @@ if (isset($submit)) { ?>
 
  Typ vozidla: <select name="auto" id="cars">
  <?php foreach ($types as $type) { ?>
-   <option value <?= $type ?>"><?= $type ?> </option>
+   <option value = <?= $type ?>"><?= $type ?> </option>
  <?php } ?>
 
 </select>
