@@ -3,7 +3,7 @@
  $spz = filter_input(INPUT_POST, 'spz');
  $auto = filter_input(INPUT_POST, 'auto');
  $stariauta = filter_input(INPUT_POST, 'stariauta');
- $types = array('Auto', 'Autobus','Dodávka','Nákladní automobil');
+ $types = array('Osobní automobil', 'Autobus','Dodávka','Nákladní automobil');
  ?>
 
 <!DOCTYPE html>
@@ -20,7 +20,7 @@
 
 <?php
 if (isset($submit)) { ?>
-  <p> Auto: <?= $auto ?> </p>
+  <p> Vozidlo: <?= $auto ?> </p>
   <p> SPZ: <?= $spz ?> </p>
   <p> Stáří auta: <?= $stariauta ?> </p>
 
