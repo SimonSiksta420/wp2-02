@@ -33,7 +33,7 @@ if (isset($submit)) { ?>
  <?php } ?>
 
 </select>
-<br>SPZ <input type="text" name="spz" > 
+<br> SPZ <input type="text" name="spz" > 
 <br> <input type="submit" name="submit" value="Odeslat">
 </form>
 <?php } ?>
