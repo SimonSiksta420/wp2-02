@@ -24,12 +24,12 @@ if (isset($submit)) { ?>
   <p> Stáří auta: <?= $stariauta ?> </p>
 
   <form action="index.php" method="post">
- <?php hello ?>
+
  Rok výroby: <input type="number" id="stari" name="stariauta" min="1900" max="2020">
 
  Typ vozidla: <select name="auto" id="cars">
  <?php foreach ($types as $type) { ?>
-   <option value="<?= $type ?>"><?= $type ?> </option>
+   <option value <?= $type ?>"><?= $type ?> </option>
  <?php } ?>
 
 </select>
